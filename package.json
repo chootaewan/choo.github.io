@@ -6,11 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "lint": "next lint"
   },
   "dependencies": {
+    "concurrently": "^7.5.0",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
+    "express": "^4.18.2",
     "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
